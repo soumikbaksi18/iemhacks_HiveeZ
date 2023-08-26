@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from '../Header'
 
 const LandingPage = () => {
   return (
     <div>
-      Landing Page
+      <Header/>
     </div>
   )
 }

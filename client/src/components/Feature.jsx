@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Feature = () => {
   return (
@@ -35,8 +36,8 @@ const Feature = () => {
 
             <div className="mt-[100px] text-center text-green-900 text-[40px] font-semibold leading-[60px]">Make smarter choices through data driven insights</div>
 
-            <div className=" mt-[60px] w-[217px] h-[59px] px-8 py-4 bg-green-900 rounded-lg justify-center items-center gap-2 inline-flex">
-                <div className="text-center text-zinc-100 text-lg font-semibold leading-[27px] cursor-pointer">Get started today</div>
+            <div className=" my-[60px] w-[217px] h-[59px] px-8 py-4 bg-green-900 rounded-lg justify-center items-center gap-2 inline-flex">
+                <div className="text-center text-zinc-100 text-lg font-semibold leading-[27px] cursor-pointer"><Link to={'/register'}>Get started today</Link></div>
             </div>
     </div>
   )
